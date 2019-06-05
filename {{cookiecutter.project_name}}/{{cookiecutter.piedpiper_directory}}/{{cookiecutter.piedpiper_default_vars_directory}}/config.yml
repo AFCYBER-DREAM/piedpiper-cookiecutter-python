@@ -1,0 +1,8 @@
+project_name: {{cookiecutter.project_name}}
+version: {{cookiecutter.version}}
+gman_url: {{cookiecutter.gman_url}}
+faas_endpoint: {{cookiecutter.faas_endpoint}}
+storage:
+  url: {{cookiecutter.storage_url}}
+  access_key: {{cookiecutter.storage_access_key}}
+  secret_key: {{cookiecutter.storage_secret_key}}

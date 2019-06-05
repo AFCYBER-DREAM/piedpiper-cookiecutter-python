@@ -1,0 +1,12 @@
+{
+	"piedpiper_directory": "piedpiper.d",
+	"piedpiper_default_vars_directory": "default",
+	"project_name": "",
+	"version": "0.0.0",
+	"gman_url": "",
+	"faas_endpoint": "",
+	"storage_url": "",
+	"storage_access_key": "",
+	"storage_secret_key": ""
+}
+
