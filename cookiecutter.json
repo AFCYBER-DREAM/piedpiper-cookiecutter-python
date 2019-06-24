@@ -1,6 +1,6 @@
 {
-	"piedpiper_directory": "piedpiper.d",
-	"piedpiper_default_vars_directory": "default",
+	"piperci_directory": "piperci.d",
+	"piperci_default_vars_directory": "default",
 	"project_name": "",
 	"version": "0.0.0",
 	"gman_url": "",

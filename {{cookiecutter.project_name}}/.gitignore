@@ -129,5 +129,5 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/python
 
-{{ cookiecutter.piedpiper_directory }}/{{ cookiecutter.piedpiper_default_vars_directory }}/state/
+{{ cookiecutter.piperci_directory }}/{{ cookiecutter.piperci_default_vars_directory }}/state/
 
