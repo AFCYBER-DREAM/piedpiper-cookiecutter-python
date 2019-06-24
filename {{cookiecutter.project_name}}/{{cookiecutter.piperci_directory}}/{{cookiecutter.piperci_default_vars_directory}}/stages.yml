@@ -4,7 +4,7 @@ stages:
     deps:
     resources:
       - name: validate
-        uri: /function/piedpiper-validator-gateway
+        uri: /function/piperci-validator-gateway
     config:
       - resource: validate
         policy_version: 0.0.0
@@ -13,7 +13,7 @@ stages:
       - validate
     resources:
       - name: flake8
-        uri: /function/piedpiper-flake8-gateway
+        uri: /function/piperci-flake8-gateway
     config:
       - files: "*.py"
         resource: flake8
@@ -22,7 +22,7 @@ stages:
       - validate
     resources:
       - name: pybandit
-        uri: /function/piedpiper-pybandit-gateway
+        uri: /function/piperci-pybandit-gateway
     config:
       - files: "*"
         resource: pybandit
@@ -30,7 +30,7 @@ stages:
     deps:
     resources:
       - name: noop
-        uri: /function/piedpiper-noop-gateway
+        uri: /function/piperci-noop-gateway
     config:
       - resource: noop
         tox_arguments: -e unit
@@ -38,7 +38,7 @@ stages:
     deps:
     resources:
       - name: noop
-        uri: /function/piedpiper-noop-gateway
+        uri: /function/piperci-noop-gateway
     config:
       - target: "Dockerfile"
         resource: noop
@@ -47,7 +47,7 @@ stages:
       - build
     resources:
       - name: noop
-        uri: /function/piedpiper-noop-gateway
+        uri: /function/piperci-noop-gateway
     config:
       - files: "*"
         resource: noop

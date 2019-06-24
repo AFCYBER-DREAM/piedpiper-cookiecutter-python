@@ -1,4 +1,4 @@
-# Piedpiper Cookiecutter (Python)
+# PiperCI Cookiecutter (Python)
 
 ### Table of Contents
 * [Getting-Started](#getting-started)
@@ -10,7 +10,7 @@
 * [License](#license)
 
 ## Getting Started
-This project defines a default python project template for use with the Piedpiper ecosystem.
+This project defines a default python project template for use with the PiperCI ecosystem.
 
 ## Prerequisites
 
@@ -24,12 +24,12 @@ pip install cookiecutter
 Invoke `cookiecutter` in the desired directory and answer the prompts
 
 ```shell
-cookiecutter https://github.com/afcyber-dream/piedpiper-cookiecutter-python.git
+cookiecutter https://github.com/afcyber-dream/piperci-cookiecutter-python.git
 ```
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/AFCYBER-DREAM/piedpiper-picli)
+Please read [CONTRIBUTING.md](https://github.com/AFCYBER-DREAM/piperci-picli)
 for details on our code of conduct, and the process for submitting pull requests
 to us.
 
@@ -37,12 +37,12 @@ to us.
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available,
 see the
-[tags on this repository](https://github.com/piedpiper-cookiecutter-python/tags).
+[tags on this repository](https://github.com/piperci-cookiecutter-python/tags).
 
 ## Authors
 
 See also the list of
-[contributors](https://github.com/AFCYBER-DREAM/piedpiper-cookiercutter-python/contributors)
+[contributors](https://github.com/AFCYBER-DREAM/piperci-cookiercutter-python/contributors)
  who participated in this project.
 
 ## License
